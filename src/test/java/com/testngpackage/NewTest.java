@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeTest;
 public class NewTest {
   @Test
   public void f() {
+	  System.out.println("test");
   }
   @BeforeMethod
   public void beforeMethod() {
@@ -16,10 +17,12 @@ public class NewTest {
 
   @BeforeClass
   public void beforeClass() {
+	  System.out.println("test");
   }
 
   @BeforeTest
   public void beforeTest() {
+	  System.out.println("test");
   }
 
 }
