@@ -11,6 +11,7 @@ public class NewTest {
   }
   @BeforeMethod
   public void beforeMethod() {
+	  System.out.println("test");
   }
 
   @BeforeClass
