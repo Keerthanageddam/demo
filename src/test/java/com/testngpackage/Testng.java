@@ -50,5 +50,12 @@ public class Testng {
 	public void close() {
 		driver.close();
 	}
+	@Test
+	public void basis() {
+		System.out.println("siri");
+	}
+	
+	
+	
 
 }
